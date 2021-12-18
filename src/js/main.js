@@ -39,7 +39,7 @@ function getDiff() {
     //https://www.w3resource.com/javascript-exercises/javascript-basic-exercise-9.php
     var today = new Date();
     var xmas = new Date(today.getFullYear(), 11, 24);
-    if (today.getMonth() == 11 && today.getDate() > 14) {
+    if (today.getMonth() == 11 && today.getDate() > 24) {
         xmas.setFullYear(xmas.getFullYear() + 1);
     }
     var one_day = 1000 * 60 * 60 * 24;
